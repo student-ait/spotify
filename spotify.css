@@ -1,0 +1,223 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(235, 217, 199);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 40px;
+    border-bottom-width:1px ;
+    border-bottom-style:solid ;
+}
+.side-items{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    margin-left: 700px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.icon{
+    font-weight: 500;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.4);
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 1000px  1540px  500px;
+}
+.description, .images{
+    background-color: rgb(235, 217, 199);
+}
+
+
+.title{
+    font-size: 90px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 25px;
+    text-shadow: 2px 8px 4px rgba(0,0,0,0.4);
+    color: rgb(74, 68, 68);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+.info{
+    margin-top: 40px;
+    padding-left: 50px;
+    font-size: 18px;
+    font-family: "Lora", serif;
+    font-weight: 200;
+    font-style: normal;    
+    width:500px;
+    letter-spacing: 1px;
+    color: rgb(29, 29, 29);
+}
+.info1{
+    padding-left: 50px;
+    font-size: 18px;
+    font-family: "Lora", serif;
+    font-weight: 200;
+    font-style: normal;    
+    width:500px;
+    letter-spacing: 1px;
+    color: rgb(29, 29, 29);
+} 
+
+.description-grid-box{
+    display: grid;
+    grid-template-columns: 850px 500px;
+}
+.whole-info{
+    
+    display: grid;
+    grid-template-rows:270px 80px  280px 200px;
+}
+.spotify-boy{
+    height: 800px;
+    margin-top: -50px;
+}
+
+.spotify-boy img{
+    width:500px;
+}
+
+.download-button{
+    height: 50px;
+    width:200px;
+    font-size: 19px;
+    font-weight: 1000;
+    text-shadow: 0px 3px 4px rgba(0,0,0,0.4);
+    background-color:lightgreen;
+    border-radius: 20px;
+    border-width: 1px;
+    font-family: "Kanit", sans-serif;
+    margin-left: 150px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.4);
+}
+.row2{
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: rgb(74, 68, 68);
+    text-shadow: 2px 8px 5px rgba(0,0,0,0.3);
+    line-height: 70px;
+}
+.line1{
+    padding-left: 50px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(255, 205, 237);
+}
+.line2{
+    padding-left: 100px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color:rgb(255, 205, 237);
+}
+.line3{
+    padding-left: 180px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(255, 205, 237);
+}
+.row3{
+    padding-left: 50px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700px;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.plane{
+    background-color: black;
+    height: 1400px;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 9px 9px 4px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.rect{
+    height:1350px;
+    width:1300px;
+}
+.rectangle{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.rectangle{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    top:50px;
+    left: 10px;
+}
+.image1{
+    width:600px;
+}
+.img2{
+    position: absolute;
+    top:50px;
+    right: 40px;
+}
+.image2{
+    width:690px;
+    height: 580px;
+}
+.img3{
+    position: absolute;
+    bottom:-3px;
+    left: 10px;
+}
+.image3{
+    width: 650px;
+}
+.img4{
+    position: absolute;
+    bottom: -20px;
+    right: 40px;
+}
+.image4{
+    height: 790px;
+    width:650px ;
+}
+.img5{
+    position: absolute;
+    left: 475px;
+    bottom:510px; ;
+}
+.image5{
+    width:175px;
+}
+.money{
+    position: absolute;
+    bottom: 480px;
+    left: 80px;
+    font-size: 260px;
+    font-family: arial;
+    font-weight: 1000;
+    color: rgb(46, 166, 90);
+    opacity: 0.3;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color:black;
+}
+
+.play{
+    background-color:rgb(235, 217, 199);
+}
+
+.heart{
+    display: inline-block;
+    padding-left: 250px;
+}
+.heart-pic{
+    width:400px;
+}
+.stop{
+    padding-left: 450px;
+    padding-top: 130px;
+}
